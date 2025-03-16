@@ -1,6 +1,6 @@
 import pypandoc
 
-main():
+def ain():
 	print('hello world!')
 
 main()
