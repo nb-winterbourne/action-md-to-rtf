@@ -3,6 +3,6 @@ import pathlib
 
 def main():
 	print('hello world!')
-	pypandoc.convert_file('manuscript/*.md', 'rtf', outputfile="convert-results/test.docx")
+	pypandoc.convert_file('manuscript/*.md', 'rtf', outputfile="test.docx")
 
 main()
