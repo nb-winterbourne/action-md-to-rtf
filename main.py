@@ -25,6 +25,6 @@ def get_manu_files():
 def main():
 	print('hello world!')
 	files = get_manu_files()
-	print(f'files names to convert: {f.name for f in files}')
+	print(f'files names to convert: {[f.name for f in files]}')
 
 main()
