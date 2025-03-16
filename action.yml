@@ -20,6 +20,7 @@ runs:
       shell: bash
     - name: Install Pandoc
       run: sudo apt-get install pandoc
+      shell: bash
     - name: Run converter and deposit
       id: convert-and-deposit
       run: python3 actions/main.py
