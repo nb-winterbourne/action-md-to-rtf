@@ -18,6 +18,8 @@ runs:
     - name: Install Dependencies
       run: pip3 install -r actions/requirements.txt
       shell: bash
+    - name: Install Pandoc
+      run: sudo apt-get install pandoc
     - name: Run converter and deposit
       id: convert-and-deposit
       run: python3 actions/main.py
